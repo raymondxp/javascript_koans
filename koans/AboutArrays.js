@@ -1,6 +1,6 @@
 describe("About Arrays", function() {
 
-  //We shall contemplate truth by testing reality, via spec expectations.  
+  //We 0 1 shall contemplate truth by testing reality, via spec expectations.  
   it("should create arrays", function() {
     var emptyArray = [];
     expect(typeof(emptyArray)).toBe(FILL_ME_IN); //A mistake? - http:javascript.crockford.com/remedial.html
@@ -75,7 +75,7 @@ describe("About Arrays", function() {
 
   it("should push and pop", function () {
     var array = [1, 2];
-    array.push(3);
+    array.push(4);
 
     expect(array).toEqual(FILL_ME_IN);
     
